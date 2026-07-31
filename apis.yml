@@ -1,7 +1,30 @@
 aid: model-medicines
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/model-medicines.png
 name: Model Medicines
-description: Model Medicines is a company surfaced as a portfolio company of 8vc and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Model Medicines is an AI-first biotechnology company based in San Diego,
+  California, discovering and developing first-in-class small-molecule drugs by
+  targeting fundamental disease mechanisms it calls biological choke points. Its
+  end-to-end GALILEO AI engine spans drug design, target discovery, and
+  preclinical development, supported by specialized models including AmesNet for
+  regulatory-grade toxicology prediction and ChemPrint for chemical property
+  prediction. Lead programs target RdRp Thumb-1 (a conserved allosteric pocket on
+  viral RNA-dependent RNA polymerase) and BRD4, with lead assets MDL-001, a
+  broad-spectrum oral antiviral candidate, and MDL-4102. Surfaced as a portfolio
+  company of 8vc and added to the API Evangelist network. As of this enrichment
+  pass Model Medicines publishes no public API, developer portal, SDK, or
+  documentation surface; its AI platform is used internally for drug discovery.
 url: https://raw.githubusercontent.com/api-evangelist/model-medicines/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +34,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Biotechnology
+- Drug Discovery
+- Artificial Intelligence
+- Pharmaceuticals
+- Small Molecules
+- Life Sciences
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +50,14 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/model-medicines-domain-security.yml
 - type: Website
   url: https://modelmedicines.com
+- type: PrivacyPolicy
+  url: https://modelmedicines.com/privacy-policy
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
