@@ -1,0 +1,11 @@
+[
+  {
+    "repo": "model-medicines",
+    "captured_at": "2026-10-11T191024",
+    "source_url": "https://modelmedicines.com",
+    "source_type": "Website",
+    "file": "model-medicines-2026-10-11T191024.png",
+    "bytes": 120945,
+    "capture": "playwright-local"
+  }
+]
